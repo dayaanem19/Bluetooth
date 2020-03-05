@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F8FAFB"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="95dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="312dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_previous" />
+
+    <Switch
+        android:id="@+id/bluetoothSwitch"
+        android:layout_width="123dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="monospace"
+        android:text="Bluetooth"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/animation_view"
+        app:layout_constraintHorizontal_bias="0.991"
+        app:layout_constraintStart_toStartOf="@+id/animation_view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="362dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="13dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bluetoothSwitch"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="bluetooth_anim.json"
+        app:lottie_loop="true" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="317dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="56dp"
+        android:background="#86D2E5"
+        android:text="Search Devices"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#86D2E5"
+        app:layout_constraintBottom_toTopOf="@+id/nextBtn"
+        app:layout_constraintEnd_toEndOf="@+id/myListView"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="@+id/myListView"
+        app:layout_constraintTop_toBottomOf="@+id/myListView" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="317dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="29dp"
+        android:background="#86D2E5"
+        android:backgroundTint="#FFFFFF"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="#86D2E5"
+        app:iconTint="#0F0D0D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/searchBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/searchBtn"
+        app:layout_constraintTop_toBottomOf="@+id/searchBtn" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="188dp"
+        android:fontFamily="monospace"
+        android:text="Paired Device: "
+        android:textColor="#090707"
+        app:layout_constraintEnd_toEndOf="@+id/animation_view"
+        app:layout_constraintTop_toBottomOf="@+id/animation_view" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animation_view"
+        app:srcCompat="@drawable/ic_bluetooth_connected_24px" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="monospace"
+        android:text="Searched Devices:"
+        android:textColor="#0C0B0B"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/animation_view" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/ic_bluetooth_searching_24px" />
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="340dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="@+id/animation_view"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="@+id/animation_view"
+        app:layout_constraintTop_toBottomOf="@+id/animation_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

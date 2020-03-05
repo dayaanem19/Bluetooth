@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.motorcycleapp"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:6:5-40
+12-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:6:18-37
+13
+14    <uses-permission android:name="android.permission.BLUETOOTH" />
+14-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:8:5-67
+14-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+15-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:9:5-73
+15-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:9:22-71
+16
+17    <application
+17-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:11:5-54:19
+18        android:allowBackup="true"
+18-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /home/dayan/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:17:9-40
+27        <activity android:name="com.example.motorcycleapp.ActivityFirst" >
+27-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:18:9-24:20
+27-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:18:19-48
+28            <intent-filter>
+28-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:20:17-69
+29-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:22:17-77
+31-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="com.example.motorcycleapp.ActivityMainV2" >
+34-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:25:9-26:20
+34-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:25:19-49
+35        </activity>
+36        <activity android:name="com.example.motorcycleapp.ActivityThirdV2" >
+36-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:27:9-28:20
+36-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:27:19-50
+37        </activity>
+38        <activity android:name="com.example.motorcycleapp.ActivityThird21" >
+38-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:29:9-30:20
+38-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:29:19-50
+39        </activity>
+40        <activity android:name="com.example.motorcycleapp.ActivitySeventh2" >
+40-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:31:9-32:20
+40-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:31:19-51
+41        </activity>
+42        <activity android:name="com.example.motorcycleapp.ActivitySeventh21" >
+42-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:33:9-34:20
+42-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:33:19-52
+43        </activity>
+44        <activity android:name="com.example.motorcycleapp.ActivitySecondV2" >
+44-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:35:9-36:20
+44-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:35:19-51
+45        </activity>
+46        <activity android:name="com.example.motorcycleapp.ActivitySecond21" >
+46-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:37:9-38:20
+46-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:37:19-51
+47        </activity>
+48        <activity android:name="com.example.motorcycleapp.ActivityFourthV2" >
+48-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:39:9-40:20
+48-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:39:19-51
+49        </activity>
+50        <activity android:name="com.example.motorcycleapp.ActivityFifthV2" >
+50-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:41:9-42:20
+50-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:41:19-50
+51        </activity>
+52        <activity android:name="com.example.motorcycleapp.ActivitySixthV2" >
+52-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:43:9-44:20
+52-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:43:19-50
+53        </activity>
+54        <activity android:name="com.example.motorcycleapp.ActivitySixthV21" >
+54-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:45:9-46:20
+54-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:45:19-51
+55        </activity>
+56        <activity android:name="com.example.motorcycleapp.resetPass" >
+56-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:47:9-48:20
+56-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:47:19-44
+57        </activity>
+58        <activity android:name="com.example.motorcycleapp.resetPin" >
+58-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:49:9-50:20
+58-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:49:19-43
+59        </activity>
+60        <activity android:name="com.example.motorcycleapp.successfulSignUp" >
+60-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:51:9-52:20
+60-->/home/dayan/Desktop/BluetoothTap/Thesis-master (1)/Thesis-master/motorcycleApp/app/src/main/AndroidManifest.xml:51:19-51
+61        </activity>
+62    </application>
+63
+64</manifest>

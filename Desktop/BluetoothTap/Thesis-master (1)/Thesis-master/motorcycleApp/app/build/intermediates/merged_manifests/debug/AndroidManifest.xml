@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.motorcycleapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="29" />
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.motorcycleapp.ActivityFirst" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.motorcycleapp.ActivityMainV2" >
+        </activity>
+        <activity android:name="com.example.motorcycleapp.ActivityThirdV2" >
+        </activity>
+        <activity android:name="com.example.motorcycleapp.ActivityThird21" >
+        </activity>
+        <activity android:name="com.example.motorcycleapp.ActivitySeventh2" >
+        </activity>
+        <activity android:name="com.example.motorcycleapp.ActivitySeventh21" >
+        </activity>
+        <activity android:name="com.example.motorcycleapp.ActivitySecondV2" >
+        </activity>
+        <activity android:name="com.example.motorcycleapp.ActivitySecond21" >
+        </activity>
+        <activity android:name="com.example.motorcycleapp.ActivityFourthV2" >
+        </activity>
+        <activity android:name="com.example.motorcycleapp.ActivityFifthV2" >
+        </activity>
+        <activity android:name="com.example.motorcycleapp.ActivitySixthV2" >
+        </activity>
+        <activity android:name="com.example.motorcycleapp.ActivitySixthV21" >
+        </activity>
+        <activity android:name="com.example.motorcycleapp.resetPass" >
+        </activity>
+        <activity android:name="com.example.motorcycleapp.resetPin" >
+        </activity>
+        <activity android:name="com.example.motorcycleapp.successfulSignUp" >
+        </activity>
+    </application>
+
+</manifest>
