@@ -1704,6 +1704,7 @@ id notification_main_column_container
 id off
 id on
 id outline
+id pDeviceName
 id packed
 id parallax
 id parent
@@ -1843,8 +1844,6 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
-id tvDeviceAddress
-id tvDeviceName
 id unchecked
 id uniform
 id unlabeled
@@ -1946,7 +1945,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout device_adapter_view
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
